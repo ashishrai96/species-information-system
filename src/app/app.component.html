@@ -1,0 +1,10 @@
+<div class="container">
+  <app-nav-bar [items]="navItems"></app-nav-bar>
+  <div class="app-container">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="footer">
+    <div class="left">&copy; IIIT Hyderabad</div>
+    <div class="right">{{ date | date:'EEE, d/MM/YYYY h:mm:ss a' }}</div>
+  </div>
+</div>

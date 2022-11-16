@@ -1,0 +1,14 @@
+.nav-items {
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        color: #86c232;
+        font-weight: 700;
+    }
+}

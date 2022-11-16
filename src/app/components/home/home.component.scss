@@ -1,0 +1,96 @@
+.home{
+    .img{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 400px;
+    }
+
+    .img_1{
+        background-image: url('../../../assets/images/home_banner.jpeg');
+    }
+    
+    .img_2{
+        background-image: url('../../../assets/images/home_2.jpeg');
+    }
+
+    .card-container{
+        padding-bottom: 20px;
+        background-color: #000;
+    }
+
+    .main-card {
+        // background: linear-gradient(45deg, #1e534e, #085467, #8b7b40);
+        background-color: #c7ab59;
+        padding: 15px;
+        color: #302718;
+
+        .header {
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .para {
+            font-size: 22px;
+            margin: 15px 55px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+
+            img{
+                height: 250px;
+                border: 5px solid #d79301;
+                overflow: hidden;
+                border-radius: 10px;
+            }
+
+            .img-stamp {
+                font-size: 30px;
+                align-self: flex-start;
+                position: absolute;
+                margin: 40px 0px 0px -320px;
+                transform: rotate(-35deg);
+                color: #e54343;
+                font-weight: 700;
+                border: 3px solid;
+                padding: 5px;
+            }
+
+            .card{
+                padding: 10px;
+                margin: 10px;
+
+                .title{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+
+                .para{
+                    font-size: 18px;
+                }
+
+            }
+        }
+
+        .left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 10px;
+        }
+
+        .right{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 10px;
+            border-left: 2px solid;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.population-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 30px;
+
+    .header {
+        font-size: 25px;
+        font-weight: 700;
+        color: #474b4f;
+    }
+
+    .body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .para{
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .item {
+                padding: 10px;
+                font-size: 14px;
+
+                .text {
+                    display: flex;
+                    color: #6b6e70;
+
+                    i{
+                        padding: 0px 10px;
+                        color: #86c232;
+                    }
+                }
+            }
+        }
+    }
+}

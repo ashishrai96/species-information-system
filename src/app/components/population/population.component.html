@@ -1,0 +1,23 @@
+<!-- <p>{{ isRhino?'Rhino':'Elephant' }} works!</p> -->
+<div class="population-container">
+    <div class="header">Population Trends</div>
+    <div class="body">
+        <div class="para">
+            <div class="item" *ngFor="let item of elephantsMethods">
+                <div class="text">
+                    <i class="pi pi-check-circle"></i>
+                    {{ item }}
+                </div>
+            </div>
+        </div>
+        <div class="graph">
+            <div class="g-item" *ngFor="let g of graphs">
+                <div class="g-header">{{ g.title }}</div>
+                <div class="g-graph">
+                    <p-chart type="line" [data]="g.estimate" [options]="basicOptions"></p-chart>
+                    <p-chart type="line" [data]="g.predict" [options]="basicOptions"></p-chart>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

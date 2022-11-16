@@ -1,0 +1,12 @@
+.app-container {
+    min-height: calc(100vh - 105px);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: #eee;
+    background-color: #292a2d;
+}

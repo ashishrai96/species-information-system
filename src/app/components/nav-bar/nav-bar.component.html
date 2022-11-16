@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="left">
+        <div class="logo">
+            <div class="text">SIS</div>
+        </div>
+        <div class="title">
+            Species Information System
+        </div>
+    </div>
+    <div class="right">
+        <app-nav-item [item]="item" *ngFor="let item of items"></app-nav-item>
+        <div class="toggle-button">
+            <div class="option">
+                <img src="assets/elephant_toggle.png" alt="elephants" width="30px">
+            </div>
+            <p-inputSwitch (onChange)="handleChange($event)" [(ngModel)]="isRhino"></p-inputSwitch>
+            <div class="option">
+                <img src="assets/rhino_toggle.png" alt="rhino" width="30px">
+            </div>
+        </div>
+    </div>
+</div>
