@@ -23,6 +23,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding: 10px 0px;
 
             .item {
                 padding: 10px;
@@ -38,6 +39,44 @@
                     }
                 }
             }
+        }
+    }
+
+    .graph {
+        width: 100%;
+
+        .g-item {
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #ddd;
+            padding: 10px 0px;
+
+            .g-header {
+                font-size: 24px;
+                font-weight: 700;
+                color: #474b4f;
+                padding: 10px 0px;
+                flex: 0.7;
+                text-align: center;
+            }
+
+            .g-graph {
+                display: flex;
+                flex: 2;
+
+                p-chart {
+                    flex: 1;
+                    padding: 15px;
+                }
+            }
+        }
+
+        .g-item:nth-child(even) {
+            flex-direction: row-reverse;
+
+            // .g-header {
+            //     text-align: mi;
+            // }
         }
     }
 }
