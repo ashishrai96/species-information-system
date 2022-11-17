@@ -63,7 +63,7 @@
                             </div>
                             <div class="right">
                                 <div class="chart">
-                                    <p-chart type="line" [data]="i.data" [options]="basicOptions"></p-chart>
+                                    <p-chart [data]="i.data" [options]="i.data.datasets[0].type=='pie'?pieOptions:basicOptions"></p-chart>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,4 @@
-<div class="home">
+<div class="home" *ngIf="!isRhino">
     <!-- <img src="assets/images/home_banner.jpeg" alt="banner"> -->
     <div class="img img_1"></div>
     <div class="main-card">
@@ -71,4 +71,121 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="home" *ngIf="isRhino">
+    <!-- <img src="assets/images/home_banner.jpeg" alt="banner"> -->
+    <div class="img img_3"></div>
+    <div class="main-card">
+        <div class="header">Our Rhino</div>
+        <div class="para">Rhinos are one of the most critically endangered species on earth. There are currently five species of Asian and African rhinoceros left in the world. Three of the five are critically endangered according to IUCN(International Union for Conservation of Nature).</div>
+    </div>
+    <div class="img img_4"></div>
+    <div class="card-container">
+        <div class="main-card">
+            <div class="row">
+                <div class="left">
+                    <div class="img-stamp">
+                        CRITICALLY<br> ENDANGERED
+                    </div>
+                    <img src="https://media.savetherhino.org/prod/uploads/2018/02/Species-Black-Credit-Phill-Perry-768x511.jpg"
+                        alt="Black Rhino">
+                </div>
+                <div class="right">
+                    <div class="card">
+                        <div class="title">Black Rhino</div>
+                        <div class="para">
+                            Black rhinos are the smaller of the two African rhino species. Black rhinos are browsers rather than grazers, and their pointed lip helps them feed on leaves from bushes and trees. They have two horns, and occasionally a third, small posterior horn.                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="main-card">
+            <div class="row">
+                <div class="left">
+                    <div class="card">
+                        <div class="title">White Rhino</div>
+                        <div class="para">
+                            White rhinos are the second-largest land mammal. Also known as the square-lipped rhinoceros, white rhinos have a square upper lip with almost no hair. White rhinos are 'mowing-machines'!
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="img-stamp">
+                        NEAR<br>
+                        THREATENED
+                    </div>
+                    <img src="https://media.savetherhino.org/prod/uploads/2018/05/White-Rhino-Close-Up-1-1000x650.jpg"
+                        alt="White Rhino">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="main-card">
+            <div class="row">
+                <div class="left">
+                    <div class="img-stamp">
+                        VULNERABLE
+                    </div>
+                    <img src="https://media.savetherhino.org/prod/uploads/2018/04/Greater_One_Horned_Rhino_CreditRenaudFulconis.jpg"
+                        alt="Greater One-Horned Rhino">
+                </div>
+                <div class="right">
+                    <div class="card">
+                        <div class="title">Greater One-Horned Rhino</div>
+                        <div class="para">
+                            The greater one-horned rhino (or “Indian rhino”) is the largest of the rhino species. Greater one-horned rhinos are semi-aquatic and often take up residence in swamps, forests and riversides. The greater one-horned rhino is identified by a single black horn about 8-25 inches long and a grey-brown hide with skin folds, which gives it an armor-plated appearance.                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="main-card">
+            <div class="row">
+                <div class="left">
+                    <div class="card">
+                        <div class="title">Sumatran Rhino</div>
+                        <div class="para">
+                            Sumatran rhinos are the smallest of the living rhinoceroses and the only Asian rhino with two horns. They are covered with long hair and are more closely related to the extinct woolly rhinos than any of the other rhino species alive today.
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="img-stamp">
+                        CRITICALLY<br>
+                        ENDANGERED
+                    </div>
+                    <img src="https://media.savetherhino.org/prod/uploads/2018/04/Species-Sumatran-Credit-Mark-Carwardine4-1000x650.jpg"
+                        alt="Sumatran Rhino">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-conatiner">
+        <div class="main-card card-container">
+            <div class="row">
+                <div class="left">
+                    <div class="img-stamp">
+                        CRITICALLY<br>
+                        ENDANGERED
+                    </div>
+                    <img src="https://media.savetherhino.org/prod/uploads/2018/04/Javan-Rhino-Alain-Compost-1-1.jpg"
+                        alt="Javan Rhino">
+                </div>
+                <div class="right">
+                    <div class="card">
+                        <div class="title">Javan Rhino</div>
+                        <div class="para">
+                            Javan rhinos are the most threatened of the five rhino species, with only around 60 individuals that live only in Ujung Kulon National Park in Java, Indonesia. This species is a dusky grey color and has a single horn of up to about 10 inches.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
 </div>

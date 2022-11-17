@@ -35,5 +35,22 @@
                 "data": [21, 38, 164, 39, 52, 42, 31, 38, 20, 50, 35, 36, 34, 82, 12, 4]
             }
         ]
+    },
+    "piePoachingAfrica": {
+        "name": "% of total population of African Rhinos Poached Areawise",
+        "content": [
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum"
+        ],
+        "x": ["Botswana", "DR Congo", "Eswatini", "Kenya", "Malawi", "Mozambique", "Namibia", "South Africa", "Tanzania", "Zambia", "Zimbabwe"],
+        "y": [
+            {
+
+                "type": "pie",
+                "data": [172, 6, 3, 247, 7, 144, 471, 9387, 19, 2, 698]
+            }
+        ]
     }
 }

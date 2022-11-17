@@ -15,6 +15,8 @@ export class AnalysisComponent implements OnInit {
 	illegalTrading: any = [];
 	trophyHunting: any = [];
 	poaching: any = [];
+	showPieChart: boolean = false;
+	pieOptions: { plugins: { legend: { display: boolean; }; }; };
 
 	constructor(private globalService: GlobalService) { }
 
@@ -69,6 +71,14 @@ export class AnalysisComponent implements OnInit {
 					data: [500, 500, 500, 500, 500, 500, 500, 500, 500]
 				}
 			]
+		};
+
+		this.pieOptions = {
+			plugins: {
+				legend: {
+					display: false
+				}
+			},
 		};
 
 		this.basicOptions = {
@@ -161,6 +171,14 @@ export class AnalysisComponent implements OnInit {
 				}
 				else if (y.type == "bar") {
 					subtemp["backgroundColor"] = this.colors[idx];
+				}
+				else if (y.type == "pie") {
+					subtemp["backgroundColor"] = [];
+					for(let i = 0; i < y.data.length; i++){
+						subtemp["backgroundColor"].push(this.colors[i]);
+					}
+
+					this.showPieChart = true;
 				}
 
 				temp["data"]["datasets"].push(subtemp);

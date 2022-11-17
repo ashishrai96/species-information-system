@@ -1,1 +1,15 @@
-<p>reference works!</p>
+<!-- <p>{{ isRhino?'Rhino':'Elephant' }} works!</p> -->
+<div class="reference-container">
+    <div class="header">References</div>
+    <div class="body">
+        <div class="para">
+            <div class="item">
+                <div class="text" *ngFor="let item of links">
+                    <i class="pi pi-check-circle"></i>
+                    {{item}}
+                    <!-- <a href="{{ item }}">hi</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<!-- <p>community works!</p> -->
+<div class="community-container">
+    <div class="header">Community</div>
+    <div class="body"> 
+        <div class="para">
+            <div class="item">
+                <p-editor [(ngModel)]="text" readonly="true" (onTextChange)="something($event)" [style]="{'height':'320px', 'width' : '400px'}">
+                    <ng-template pTemplate="header">
+                        <span class="ql-formats">
+                            <button type="button" class="ql-bold" aria-label="Bold"></button>
+                            <button type="button" class="ql-italic" aria-label="Italic"></button>
+                            <button type="button" class="ql-underline" aria-label="Underline"></button>
+                        </span>
+                    </ng-template>
+                </p-editor>
+            </div>
+        </div>
+    </div>
+</div>
+<div></div>

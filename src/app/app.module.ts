@@ -13,6 +13,7 @@ import { AnalysisComponent } from './components/analysis/analysis.component';
 import { DataComponent } from './components/data/data.component';
 import { ReferenceComponent } from './components/reference/reference.component';
 import { PopulationComponent } from './components/population/population.component';
+import { CommunityComponent } from './components/community/community.component';
 
 import {AccordionModule} from 'primeng/accordion';
 import {ChartModule} from 'primeng/chart';
@@ -20,6 +21,8 @@ import {InputSwitchModule} from 'primeng/inputswitch';
 import {EditorModule} from 'primeng/editor';
 import {TabViewModule} from 'primeng/tabview';
 import {TableModule} from 'primeng/table';
+
+
 
 
 @NgModule({
@@ -31,7 +34,8 @@ import {TableModule} from 'primeng/table';
     AnalysisComponent,
     DataComponent,
     ReferenceComponent,
-    PopulationComponent
+    PopulationComponent,
+    CommunityComponent
   ],
   imports: [
     BrowserModule,
