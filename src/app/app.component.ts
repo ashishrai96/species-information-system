@@ -12,6 +12,7 @@ export class AppComponent {
     { name: 'Population', route: 'population' },
     { name: 'Analysis', route: 'analysis' },
     { name: 'Data', route: 'data' },
+    { name: 'Community', route: 'community' },
     { name: 'References', route: 'ref' }
   ];
 
