@@ -1,0 +1,87 @@
+{
+    "trophyHunting": {
+        "title": "Export Quotaas for Elephant Hunting Trophies",
+        "content": [
+            "Between 2001 and 2015, in the midst of the biggest ever poaching crisis, 81,572 elephant trophies  were exported out of Africa.",
+            "The top five countries of origin for African elephant trophies were Zimbabwe, Botswana, South Africa, Tanzania and Mozambique"
+        ],
+        "x": [2007,2008,2009,2010,2011,2012,2013,2014,2015],
+        "y": [
+            {
+                "name": "Botswana",
+                "type": "bar",
+                "data": [300,330,400,400,400,400,400,400,0]
+            },
+            {
+                "name": "Cameroon",
+                "type": "bar",
+                "data": [80,80,80,80,80,80,80,80,0]
+            },
+            {
+                "name": "Gabon",
+                "type": "bar",
+                "data": [50,50,0,0,0,0,0,0,0]
+            },
+            {
+                "name": "Mozaambique",
+                "type": "bar",
+                "data": [40,40,60,100,100,100,100,100,100]
+            },
+            {
+                "name": "Namibia",
+                "type": "bar",
+                "data": [90,90,90,90,90,90,90,90,90]
+            },
+            {
+                "name": "South Africa",
+                "type": "bar",
+                "data": [100,100,150,150,150,150,150,150,150]
+            },
+            {
+                "name": "Tanazania",
+                "type": "bar",
+                "data": [200,200,200,200,200,200,200,100,100]
+            },
+            {
+                "name": "Zambia",
+                "type": "bar",
+                "data": [20,20,20,20,80,80,0,0,80]
+            },
+            {
+                "name": "Zimbabwe",
+                "type": "bar",
+                "data": [500,500,500,500,500,500,500,500,500]
+            }
+        ]
+    },
+    "africaAnnual": {
+        "title": "Annual trade of hunting trophies of African elephant from year 2004 to 2014",
+        "content": [
+            "With over 10,000 African elephant trophies were been traded worldwide from 2004 to 2014.",
+            "Elephant trophy hunting numbers rose for several years after 2004, but have decreased after 2014 as of bans imposed ."
+        ],
+        "x": [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],
+        "y": [
+            {
+                "name": "Trophies",
+                "type": "bar",
+                "data": [681,938,976,778,1052,1320,1389,859,1600,1349,1287]
+            }
+        ]
+    },
+    "countriesTrophy": {
+        "title": "Countries with most imports on hunting trophies from 2004 to 2014",
+        "content": [
+            "United States imports more hunting trophies than any other nation in the world. Around 50% of imports were made by US.",
+            "Countries under European Union like France, Spain also have consistently high imports of trophy hunting."
+        ],
+        "x": ["United States", "Canada","China","France","Germany","Russia","Africa","United Kingdom","Spain","United Arab Emirates","Mexico","Switzerland"],
+        "y": [
+            {
+                "name": "Trophies",
+                "type": "bar",
+                "data": [4447,163,472,983,189,29,1093,35,1026,31,269,152]
+            }
+        ]
+    }
+}

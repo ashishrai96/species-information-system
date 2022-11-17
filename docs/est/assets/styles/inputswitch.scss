@@ -1,0 +1,17 @@
+.p-inputswitch {
+    width: 40px !important;
+    height: 15px !important;
+    margin: 0px 5px;
+}
+
+.p-inputswitch.p-focus .p-inputswitch-slider {
+    box-shadow: none !important;
+}
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+    background-color: #86c232 !important;
+}
+
+.p-inputswitch .p-inputswitch-slider:before{
+    left: 0px !important;
+}

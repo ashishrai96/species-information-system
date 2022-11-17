@@ -1,0 +1,59 @@
+{
+    "ivoryCases": {
+        "title" : "Number of Ivory Seizures Cases",
+        "content": [
+            "ETIS had 28,490 records on 06 June 2018, of which 25,822 represented ivory seizures, with the rest being nonivory elephant products. Figure 1 cannot be interpreted as a trend, nor is it suggestive of absolute quantities of ivory seized over time, because of inherent bias in the data in terms of rates of interdiction and reporting seizure data to ETIS by countries over time."
+        ],
+        "x": [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],
+        "y": [
+            {
+                "name": "Number of Ivory Seizure Cases",
+                "type": "line",
+                "data": [533,1355,1344,1892,1376,1634,1352,1455,1242,1007]
+            }
+        ]
+    },
+    "ivoryWeightSeized": {
+        "title" : "Estimated Weight of Ivory seized by Source Entering Illegal Trade",
+        "content": [
+            "In over half of the ETIS seizure records, the Parties have not specified the weight of the items seized, but rather only provided the ‘number of pieces’ by ivory type or given weight estimates instead of precise values. It is often not known whether ‘pieces’ concern whole tusks or cut pieces of raw ivory and, in the case of worked ivory, the specific product seized usually remains unidentified and could potentially range from a few grams to many kilograms."
+        ],
+        "x": [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],
+        "y": [
+            {
+                "name": "Raw ivory weight (kg)",
+                "type": "line",
+                "data": [5500,27600,23300,45600,36900,59900,33900,39000,34100,34600]
+            },
+            {
+                "name": "Worked ivory weight RIE (kg)",
+                "type": "line",
+                "data": [1400,6700,3400,6100,5200,7500,7000,5800,5900,3700]
+            },
+            {
+                "name": "Total (kg)",
+                "type": "line",
+                "data": [6900,34300,26700,51700,42100,67400,40900,44800,40000,38300]
+            }
+        ]
+    },
+    "largeIvorySeizure": {
+        "title" : "No. of large-scale ivory seizures reported",
+        "content": [
+            "The forensic examination of ivory in seizure cases and used the results to extend trade route information to encompass designated countries of origin as part of the known trade chains."
+        ],
+        "x": [2011,2012,2013,2014,2015,2016,2017],
+        "y": [
+            {
+                "name": "Large-Scale Seizure Cases",
+                "type": "line",
+                "data": [13,14,19,15,20,18,8]
+            },
+            {
+                "name": "Forensically Examined",
+                "type": "line",
+                "data": [0,3,6,6,2,2,2]
+            }
+        ]
+    }
+}

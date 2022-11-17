@@ -1,0 +1,74 @@
+{
+    "hornSeized": {
+        "title" : "Number of Whole Horn Seized",
+        "content": [
+            "For Calculating Number of Whole Horns the Conversion Factor was Used.",
+            "The decline in the whole number of Horn Seized is mainly due to Covid-19."
+        ],
+        "x": [2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],
+        "y": [
+            {
+                "name": "Number of Whole Horn Seized",
+                "type": "line",
+                "data": [335,300,330,375,350,450,500,590,575,1000,450]
+            }
+        ]
+    },
+    "illegalTrade": {
+        "title" : "Estimated Number of Rhino Horns by Source Entering Illegal Trade",
+        "content": [
+            "Minimum estimate based on 2018-2020 poaching data presented in this report multiplied by a factor of 2 horns per poached rhino; maximum estimate based on poaching data corrected for carcass detection probability of 0.90. (as recent study at Kruger National Park estimated that roughly 10% of carcass go undetected)."
+        ],
+        "x": [ "illegal markets","natural mortalities","government stockpiles","private stocks","trophy hunts"],
+        "y": [
+            {
+                "name": "MIN",
+                "type": "bar",
+                "data": [4412,0,0,181,0]
+            },
+            {
+                "name": "MAX",
+                "type": "bar",
+                "data": [4092,0,0,181,103]
+            }
+        ]
+    },
+    "illegalMarket": {
+        "title" : "Estimated average number of African rhino horns sourced for illegal markets per year",
+        "content": [
+        ],
+        "x": ["Jan’00-Dec’05","Jan’06-Sept’09","Jan’09-Sept’12","Oct’12-Dec’15","Jan’16-Dec’17","Jan’18-Dec’20"],
+        "y": [
+            {
+                "name": "MIN",
+                "type": "bar",
+                "data": [106,408,1140,2674,2378,575]
+            },
+            {
+                "name": "MAX",
+                "type": "bar",
+                "data": [106,408,1140,2674,2378,923]
+            }
+        ]
+    },
+    "hornRecovered": {
+        "title" : "Estimated Number of Rhino Horns recovered",
+        "content": [
+            "Lower estimate (maximum column) based on data from Kruger National Park (KNP), South Africa; higher estimate (minimum column) based minimum poached horns reported in this table, times the proportion of poached horns (17%) that are recovered in situ based on KNP estimates.",
+            "Based on data obtained from the CITES Illegal Trade Reports, TRAFFIC database, and five Parties that were collated into a seizure database for this report to ensure no duplication. If not reported, number of horns were estimated using species-specific weight (kg) to number of horns conversion factor."
+        ],
+        "x": ["Recoveries of illegally obtained horns in situ","Confiscations/seizures"],
+        "y": [
+            {
+                "name": "MIN",
+                "type": "bar",
+                "data": [750,2199]
+            },
+            {
+                "name": "MAX",
+                "type": "bar",
+                "data": [299,2199]
+            }
+        ]
+    }
+}

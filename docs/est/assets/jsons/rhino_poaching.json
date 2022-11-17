@@ -1,0 +1,79 @@
+{
+    "poachingAfrica": {
+        "name": "Poaching Numbers in Africa",
+        "content": [
+            "Since 2017, poaching rates have decreased all over the continent of Africa. Numbers of african rhinos poached decreased substantially from 1125 in 2017 to just 501 in 2021.",
+            "Reasons for this decline in poaching rates could be COVID-19 which caused many governments to implement travel restrictions worldwide as well as South Africa was in hard lockdown for 2 months.",
+            "90% of the total rhinos poached were in South Africa.",
+            "2% of the total rhinos poached were in South Africa.",
+            "Other provinces with considerable number of rhinos poached were the provinces of Botswana, Mozambique, Namibia and Zimbabwe."
+        ],
+        "x": [2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021],
+        "y": [
+            {
+                "name": "South Africa",
+                "type": "line",
+                "data": [36,13,83,122,333,448,668,1004,1215,1175,1054,1028,769,594,394,451]
+            },
+            {
+                "name": "Kenya",
+                "type": "line",
+                "data": [3,1,6,21,22,27,29,59,35,11,10,9,4,4,0,6]
+            },
+            {
+                "name": "Botswana",
+                "type": "line",
+                "data": [0,0,0,0,0,0,2,2,1,0,1,9,18,31,55,53]
+            },
+            {
+                "name": "Mozambique",
+                "type": "line",
+                "data": [0, 9, 5, 15, 16, 10, 16, 15, 19, 13, 5, 5, 8, 6, 2, 0]
+            },
+            {
+                "name": "Namibia",
+                "type": "line",
+                "data": [0, 0, 0, 2, 2, 1, 1, 4, 30, 97, 61, 44, 93, 56, 40, 40]
+            },
+            {
+                "name": "Zimbabwe",
+                "type": "line",
+                "data": [21, 38, 164, 39, 52, 42, 31, 38, 20, 50, 35, 36, 34, 82, 12, 4]
+            }
+        ]
+    },
+    "poachingAsia": {
+        "name": "Poaching numbers in India and Nepal",
+        "content": [
+            "No poaching records of Javan rhinos in Indonesia since the mid 1970s. They also haven't detected any Sumatran rhino carcasses since 2006 but their decrease in population makes them suspect that poaching is causing that. They can’t perform a proper carcass detection of sumatran rhinos as they prefer to live in dense rain forests. Hence, no data was available on poaching of rhinos in Indonesia."
+        ],
+        "x": ["2013", "2014", "2015", "2016", "2017", "2018", "2019 - 2021"],
+        "y": [
+            {
+                "name": "India",
+                "type": "line",
+                "data": [41, 34, 24, 22, 11, 7, 10]
+            },
+            {
+                "name": "Nepal",
+                "type": "line",
+                "data": [0, 0, 0, 0, 1, 0, 1]
+            }
+        ]
+    },
+    "piePoachingAfrica": {
+        "name": "% of total population of African Rhinos Poached Areawise",
+        "content": [
+            "Due to poaching and translocation of individual rhinos between different range states, the population of rhinos isn’t expected to reach back to pre-poaching size until 2030-2040.",
+            "For a stable rhino population, the poaching rate shouldn’t exceed 3.6%. For a 5% annual growth in population, the poaching rate should be lower than 1.3%."
+        ],
+        "x": ["Botswana", "DR Congo", "Eswatini", "Kenya", "Malawi", "Mozambique", "Namibia", "South Africa", "Tanzania", "Zambia", "Zimbabwe"],
+        "y": [
+            {
+
+                "type": "pie",
+                "data": [172, 6, 3, 247, 7, 144, 471, 9387, 19, 2, 698]
+            }
+        ]
+    }
+}
