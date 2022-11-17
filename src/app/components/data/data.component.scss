@@ -1,0 +1,33 @@
+.data-container{
+    padding: 20px 30px;
+
+    .header{
+        font-size: 25px;
+        font-weight: 700;
+        color: #474b4f;
+    }
+
+    .tables {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        .item {
+            margin: 10px 20px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 4px 0px #ccc;
+            flex: 1;
+            width: 60%;
+            
+            .title {
+                text-align: center;
+                padding: 10px;
+                font-size: 20px;
+                font-weight: 700;
+                color: #474b4f;
+            }
+        }
+    }
+}

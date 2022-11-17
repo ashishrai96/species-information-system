@@ -1,0 +1,85 @@
+{
+    "hornSeized": {
+        "title" : "Number of Whole Horn Seized",
+        "content": [
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum"
+        ],
+        "x": [2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],
+        "y": [
+            {
+                "name": "Number of Whole Horn Seized",
+                "type": "line",
+                "data": [335,300,330,375,350,450,500,590,575,1000,450]
+            }
+        ]
+    },
+    "illegalTrade": {
+        "title" : "Estimated Number of Rhino Horns by Source Entering Illegal Trade",
+        "content": [
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum"
+        ],
+        "x": [ "illegal markets","natural mortalities","government stockpiles","private stocks","trophy hunts"],
+        "y": [
+            {
+                "name": "MIN",
+                "type": "bar",
+                "data": [4412,0,0,181,0]
+            },
+            {
+                "name": "MAX",
+                "type": "bar",
+                "data": [4092,0,0,181,103]
+            }
+        ]
+    },
+    "illegalMarket": {
+        "title" : "Estimated average number of African rhino horns sourced for illegal markets per year",
+        "content": [
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum"
+        ],
+        "x": ["Jan’00-Dec’05","Jan’06-Sept’09","Jan’09-Sept’12","Oct’12-Dec’15","Jan’16-Dec’17","Jan’18-Dec’20"],
+        "y": [
+            {
+                "name": "MIN",
+                "type": "bar",
+                "data": [106,408,1140,2674,2378,575]
+            },
+            {
+                "name": "MAX",
+                "type": "bar",
+                "data": [106,408,1140,2674,2378,923]
+            }
+        ]
+    },
+    "hornRecovered": {
+        "title" : "Estimated Number of Rhino Horns recovered",
+        "content": [
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum"
+        ],
+        "x": ["Recoveries of illegally obtained horns in situ","Confiscations/seizures"],
+        "y": [
+            {
+                "name": "MIN",
+                "type": "bar",
+                "data": [750,2199]
+            },
+            {
+                "name": "MAX",
+                "type": "bar",
+                "data": [299,2199]
+            }
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "trophyHunting": {
+        "title": "Export Quotaas for Elephant Hunting Trophies",
+        "content": [
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum"
+        ],
+        "x": [2007,2008,2009,2010,2011,2012,2013,2014,2015],
+        "y": [
+            {
+                "name": "Botswana",
+                "type": "bar",
+                "data": [300,330,400,400,400,400,400,400,0]
+            },
+            {
+                "name": "Cameroon",
+                "type": "bar",
+                "data": [80,80,80,80,80,80,80,80,0]
+            },
+            {
+                "name": "Gabon",
+                "type": "bar",
+                "data": [50,50,0,0,0,0,0,0,0]
+            },
+            {
+                "name": "Mozaambique",
+                "type": "bar",
+                "data": [40,40,60,100,100,100,100,100,100]
+            },
+            {
+                "name": "Namibia",
+                "type": "bar",
+                "data": [90,90,90,90,90,90,90,90,90]
+            },
+            {
+                "name": "South Africa",
+                "type": "bar",
+                "data": [100,100,150,150,150,150,150,150,150]
+            },
+            {
+                "name": "Tanazania",
+                "type": "bar",
+                "data": [200,200,200,200,200,200,200,100,100]
+            },
+            {
+                "name": "Zambia",
+                "type": "bar",
+                "data": [20,20,20,20,80,80,0,0,80]
+            },
+            {
+                "name": "Zimbabwe",
+                "type": "bar",
+                "data": [500,500,500,500,500,500,500,500,500]
+            }
+        ]
+    },
+    "africaAnnual": {
+        "title": "Annual trade of hunting trophies of African elephant from year 2004 to 2014",
+        "content": [
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum"
+        ],
+        "x": [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],
+        "y": [
+            {
+                "name": "Trophies",
+                "type": "bar",
+                "data": [681,938,976,778,1052,1320,1389,859,1600,1349,1287]
+            }
+        ]
+    },
+    "countriesTrophy": {
+        "title": "Countries with most imports on hunting trophies from 2004 to 2014",
+        "content": [
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum"
+        ],
+        "x": ["United States", "Canada","China","France","Germany","Russia","Africa","United Kingdom","Spain","United Arab Emirates","Mexico","Switzerland"],
+        "y": [
+            {
+                "name": "Trophies",
+                "type": "bar",
+                "data": [4447,163,472,983,189,29,1093,35,1026,31,269,152]
+            }
+        ]
+    }
+}

@@ -28,6 +28,30 @@ export class GlobalService {
     return this.http.get('https://est-sis-default-rtdb.asia-southeast1.firebasedatabase.app/rhinos/graphs.json');
   }
 
-
-
+  getIllegalTrading(isRhino){
+    if(isRhino){
+      return this.http.get('http://localhost:4200/assets/jsons/rhino_trading.json');
+    }
+    else{
+      return this.http.get('http://localhost:4200/assets/jsons/elephant_trading.json');
+    }
+  }
+  
+  getTrophyHunting(isRhino){
+    if(isRhino){
+      return this.http.get('http://localhost:4200/assets/jsons/rhino_hunting.json');
+    }
+    else{
+      return this.http.get('http://localhost:4200/assets/jsons/elephant_hunting.json');
+    }
+  }
+  
+  getPoaching(isRhino){
+    if(isRhino){
+      return this.http.get('http://localhost:4200/assets/jsons/rhino_poaching.json');
+    }
+    else{
+      return this.http.get('http://localhost:4200/assets/jsons/elephant_poaching.json');
+    }
+  }
 }

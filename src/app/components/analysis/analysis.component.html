@@ -1,4 +1,75 @@
-<p>analysis works!</p>
+<!-- <p>analysis works!</p>
 <div class="chart">
     <p-chart type="line" [data]="lineStylesData" [options]="basicOptions"></p-chart>
+</div> -->
+
+<div class="analysis-container">
+    <div class="header">Analysis</div>
+    <div class="body">
+        <p-tabView>
+            <p-tabPanel header="Illegal Trading">
+                <div class="body">
+                    <div class="list">
+                        <div class="block" *ngFor="let i of illegalTrading">
+                            <div class="left">
+                                <div class="content">
+                                    <div class="item" *ngFor="let c of i.content">
+                                        <i class="pi pi-check-circle"></i>
+                                        {{ c }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="chart">
+                                    <p-chart type="line" [data]="i.data" [options]="basicOptions"></p-chart>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p-tabPanel>
+            <p-tabPanel header="Trophy Hunting">
+                <div class="body">
+                    <div class="list">
+                        <div class="block" *ngFor="let i of trophyHunting">
+                            <div class="left">
+                                <div class="content">
+                                    <div class="item" *ngFor="let c of i.content">
+                                        <i class="pi pi-check-circle"></i>
+                                        {{ c }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="chart">
+                                    <p-chart type="line" [data]="i.data" [options]="basicOptions"></p-chart>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p-tabPanel>
+            <p-tabPanel header="Poaching">
+                <div class="body">
+                    <div class="list">
+                        <div class="block" *ngFor="let i of poaching">
+                            <div class="left">
+                                <div class="content">
+                                    <div class="item" *ngFor="let c of i.content">
+                                        <i class="pi pi-check-circle"></i>
+                                        {{ c }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="chart">
+                                    <p-chart type="line" [data]="i.data" [options]="basicOptions"></p-chart>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p-tabPanel>
+        </p-tabView>
+    </div>
 </div>

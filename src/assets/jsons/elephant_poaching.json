@@ -1,0 +1,46 @@
+{
+    "poachingAfrica": {
+        "name" : "Poaching Numbers in South Africa",
+        "content" :
+        [
+            "The total number of carcasses reported irrespective of cause of death",
+            "the number not illegally killed (natural deaths, management related deaths and unknown type of death)",
+            "the number of carcasses of elephants illegally killed"
+        ],
+        "x" : [2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020],
+        "y" : [
+            {
+                "name" : "NonIllegal",
+                "type" : "line",
+                "data" : [471,453,467,477,405,468,856,457,443,832,689,666,694,742,975,762,971,1057]
+            },
+            {
+                "name" : "Illegal",
+                "type" : "line",
+                "data" : [287,436,275,250,395,493,440,605,1009,1048,772,782,815,698,690,572,335,228]
+            }
+        ]
+    },
+    "poachingAsia": {
+        "name" : "Poaching Numbers in Asia",
+        "content" :
+        [
+            "The total number of carcasses reported irrespective of cause of death",
+            "the number not illegally killed (natural deaths, management related deaths and unknown type of death)",
+            "the number of carcasses of elephants illegally killed"
+        ],
+        "x" : [2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],
+        "y" : [
+            {
+                "name" : "NonIllegal",
+                "type" : "line",
+                "data" : [16,44,62,100,222,197,218,196,218,319,336,255,180,178,235]
+            },
+            {
+                "name" : "Illegal",
+                "type" : "line",
+                "data" : [4,5,13,15,32,43,48,52,35,39,34,36,43,36,41]
+            }
+        ]
+    }
+}

@@ -12,13 +12,14 @@ import { HomeComponent } from './components/home/home.component';
 import { AnalysisComponent } from './components/analysis/analysis.component';
 import { DataComponent } from './components/data/data.component';
 import { ReferenceComponent } from './components/reference/reference.component';
+import { PopulationComponent } from './components/population/population.component';
 
 import {AccordionModule} from 'primeng/accordion';
 import {ChartModule} from 'primeng/chart';
 import {InputSwitchModule} from 'primeng/inputswitch';
-import { PopulationComponent } from './components/population/population.component';
-
-
+import {EditorModule} from 'primeng/editor';
+import {TabViewModule} from 'primeng/tabview';
+import {TableModule} from 'primeng/table';
 
 
 @NgModule({
@@ -40,7 +41,10 @@ import { PopulationComponent } from './components/population/population.componen
     HttpClientModule,
     AccordionModule,
     ChartModule,
-    InputSwitchModule
+    InputSwitchModule,
+    EditorModule,
+    TabViewModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
