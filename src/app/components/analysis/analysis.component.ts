@@ -131,19 +131,28 @@ export class AnalysisComponent implements OnInit {
 	fetchData(isRhino){
 		this.globalService.getIllegalTrading(isRhino).subscribe((data: any) => {
 			if (data) {
-				this.populateData(data, 'trading');
+				for(let key in data){
+					this.populateData(data[key], 'trading');
+					break;
+				}
 			}
 		});
 
 		this.globalService.getTrophyHunting(isRhino).subscribe((data: any) => {
 			if (data) {
-				this.populateData(data, 'hunting');
+				for(let key in data){
+					this.populateData(data[key], 'hunting');
+					break;
+				}
 			}
 		});
 
 		this.globalService.getPoaching(isRhino).subscribe((data: any) => {
 			if (data) {
-				this.populateData(data, 'poaching');
+				for(let key in data){
+					this.populateData(data[key], 'poaching');
+					break;
+				}
 			}
 		});
 	}

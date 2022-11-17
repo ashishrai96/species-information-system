@@ -8,3 +8,7 @@
     <div class="right">{{ date | date:'EEE, d/MM/YYYY h:mm:ss a' }}</div>
   </div>
 </div>
+
+<div class="loader" *ngIf="loading">
+  <div class="pi pi-spin pi-spinner"></div>
+</div>

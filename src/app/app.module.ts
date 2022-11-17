@@ -21,6 +21,8 @@ import {InputSwitchModule} from 'primeng/inputswitch';
 import {EditorModule} from 'primeng/editor';
 import {TabViewModule} from 'primeng/tabview';
 import {TableModule} from 'primeng/table';
+import {DialogModule} from 'primeng/dialog';
+
 
 
 
@@ -48,7 +50,8 @@ import {TableModule} from 'primeng/table';
     InputSwitchModule,
     EditorModule,
     TabViewModule,
-    TableModule
+    TableModule,
+    DialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

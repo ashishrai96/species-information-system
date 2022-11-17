@@ -1,0 +1,9 @@
+p-editor[readonly] .p-editor-toolbar.ql-toolbar.ql-snow {
+    display: none;
+}
+
+p-editor[readonly] {
+    .ql-container.ql-snow {
+        border: 1px solid #dee2e6 !important;
+    }
+}

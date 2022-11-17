@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GlobalService } from './service/global.service';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'est';
+  loading: boolean = false;
   navItems = [
     { name: 'Home', route: 'home' },
     { name: 'Population', route: 'population' },
@@ -18,11 +20,15 @@ export class AppComponent {
 
   date = new Date();
   
-  constructor() { }
+  constructor(private globalService: GlobalService) { }
 
   ngOnInit(): void {
     setInterval(() => {
       this.date = new Date();
     }, 1000);
+
+    this.globalService.getLoading().subscribe((data) => {
+      this.loading = data;
+    });
   }
 }
